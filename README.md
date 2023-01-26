@@ -89,8 +89,8 @@ To set up Sofware Star Trivia application, follow these steps:
 
 ### CONTRIBUTION GUIDELINES
 Follow these Links:
-> 1. Main repository: (https://github.com/TREYCSE/triviaGame)
-> 2. Issue Tracker: (https://docs.google.com/spreadsheets/d/1h3rOtnA9zg10dT5oqklCbmK6vP9EDftnQArKYl7rBWg/edit#gid=0)
+> 1. Main repository: ([https://github.com/TREYCSE/triviaGame](https://github.com/TREYCSE/component-library/blob/main/README.md))
+> 2. Issue Tracker: ([https://docs.google.com/spreadsheets/d/1h3rOtnA9zg10dT5oqklCbmK6vP9EDftnQArKYl7rBWg/edit#gid=0](https://docs.google.com/spreadsheets/d/1h3rOtnA9zg10dT5oqklCbmK6vP9EDftnQArKYl7rBWg/edit#gid=1699520055))
 
 
 
