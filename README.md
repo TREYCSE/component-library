@@ -21,7 +21,6 @@ Requirements for the software and other tools to build, test and push
 - [Storybook](https://storybook.js.org/docs/react/get-started/introduction)
 
 ## REACT 
-
 React allows developers to spend less time making tedious and/or repetitive codes and adjustments across projects by allowing pieces of code to be stored into a library.
 Some major features included in the HTML is: 
 > 1. button
@@ -46,7 +45,6 @@ Ways components can be utilized
 > 4. 
 
 ## STORYBOOK
-
 ### What are Stories?
 A story captures the rendered state of a UI component. Developers write multiple stories per component that describe all the “interesting” states a component can support. The CLI created example components that demonstrate the types of components you can build with Storybook: Button, Header, and Page.
 
