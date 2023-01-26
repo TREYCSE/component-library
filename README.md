@@ -11,8 +11,7 @@ Sky travel companion UI design is built using React and Storybook. There are thr
   ![image](https://i.imgur.com/EOFHA37.png)
 
 ## Technologies
->1. React
->2. Storybook
+> React, Storybook, and other front-end framework
 
 ### Prerequisites to Build - Vanilla PhP, React, and Storybook
 
