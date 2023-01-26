@@ -43,48 +43,37 @@ Some major features included in the HTML is:
 > 4. text-input (collect password from users)
 
 
+### Components
+React lets you define components as classes or functions. Components defined as classes currently provide more features which are described in detail on this page. To define a React component class, you need to extend React.Component. For example:
 
-#### Component Libraries
-Javascript in this game operates mostly on functions
+    class Welcome extends React.Component {
+      render() {
+        return <h1>Hello, {this.props.name}</h1>;
+      }
+    }
 
-Below is a basic function.
+Ways components can be utilized
+> 1. 
+> 2. 
+> 3. 
+> 4. 
 
-        startGame = () => {
-          questionCounter = 0;
-          score = 0;
-          availableQuestions = [...questions];
-          console.log(availableQuestions);
-          getNewQuestion();
-        };
+#### Storybook
+A story captures the rendered state of a UI component. Developers write multiple stories per component that describe all the “interesting” states a component can support. The CLI created example components that demonstrate the types of components you can build with Storybook: Button, Header, and Page.
 
+One of the disnguishing features of Storybook is that things cannot be exported more than once. For example, a button can only be imported once, but more buttons can be added to the page by binding the button template. See the example below:
 
+    export const Home= Template.bind({});
 
-## Storybook
-Using storybook is slightly different than React alone. 
+    export const SignUp = Template.bind({});
 
-For example, in this below snippet:
-
-    saveScore = e => {
-        e.preventDefault();
-
-        const score = {
-            score: Math.floor(Math.random() * 100),
-            name: username.value
-        };
-        highScores.push(score);
-        highScores.push((a, b) => b.score - a.score);
-        highScores.splice(5);
-
-        localStorage.setItem("highScores", JSON.stringify(highScores));
-        window.location.assign("index.html");
+    SignUp.play = async ({ canvasElement }) => {
+      const canvas = within(canvasElement);
+      const loginButton = await canvas.getByRole('button', { name: /Log in/i });
+      await userEvent.click(loginButton);
     };
-Because the user's score will be unique to that specific that game that was played, this can not be a predetermined number so based on the score, this number is then displayed in the HTML of the page all within one function in Javascript by manipulating the DOM.
 
-Ways utilized DOM manipulation for the game
-> 1. Changes properties of HTML elments from JS file
-> 2. Create HTMLS classLists
-> 3. Change CSS style propoerties
-> 4. Use API storage to gather and store input/data from users
+    export const LogIn = Template.bind({});
 
 
 ### Installation Instructions / Getting Started
@@ -92,7 +81,7 @@ To set up Sofware Star Trivia application, follow these steps:
 >(1) FORK this repository
 >(2) CLONE this repository to your local
 >(3) NEW local branch
->(4) OPEN, edit, and commit!
+>(4) OPEN, edit, and commit
 
 ### CONTRIBUTION GUIDELINES
 This section should offer guidance on where and how users can contribute to your code, identify bugs, and propose improvements
