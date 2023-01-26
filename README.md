@@ -28,12 +28,14 @@ Sky travel companion UI design is built using React and Storybook. There are thr
 >1. React
 >2. Storybook
 
-### Prerequisites to Build - "Vanilla" PHP Front-End Game
+### Prerequisites to Build - Vanilla PhP, React, and Storybook
 
 Requirements for the software and other tools to build, test and push 
 - [HTML, CSS, Javascript, and the DOM](https://www.w3schools.com/js/js_htmldom.asp)
+- [React](https://reactjs.org/)
+- [Storybook](https://storybook.js.org/docs/react/get-started/introduction)
 
-### REACT 
+## REACT 
 
 React allows developers to spend less time making tedious and/or repetitive codes and adjustments across projects by allowing pieces of code to be stored into a library.
 Some major features included in the HTML is: 
@@ -43,7 +45,7 @@ Some major features included in the HTML is:
 > 4. text-input (collect password from users)
 
 
-### Components
+### What are Components?
 React lets you define components as classes or functions. Components defined as classes currently provide more features which are described in detail on this page. To define a React component class, you need to extend React.Component. For example:
 
     class Welcome extends React.Component {
@@ -58,9 +60,11 @@ Ways components can be utilized
 > 3. 
 > 4. 
 
-#### Storybook
+## Storybook
+### What are Stories?
 A story captures the rendered state of a UI component. Developers write multiple stories per component that describe all the “interesting” states a component can support. The CLI created example components that demonstrate the types of components you can build with Storybook: Button, Header, and Page.
 
+### An Example from the component-library
 One of the disnguishing features of Storybook is that things cannot be exported more than once. For example, a button can only be imported once, but more buttons can be added to the page by binding the button template. See the example below:
 
     export const Home= Template.bind({});
@@ -84,27 +88,19 @@ To set up Sofware Star Trivia application, follow these steps:
 >(4) OPEN, edit, and commit
 
 ### CONTRIBUTION GUIDELINES
-This section should offer guidance on where and how users can contribute to your code, identify bugs, and propose improvements
-
-LINKS:
+Follow these Links:
 > 1. Main repository: (https://github.com/TREYCSE/triviaGame)
 > 2. Issue Tracker: (https://docs.google.com/spreadsheets/d/1h3rOtnA9zg10dT5oqklCbmK6vP9EDftnQArKYl7rBWg/edit#gid=0)
 
 
 
-
 ## Built With
-  - [Contributor Covenant](https://www.contributor-covenant.org/) - Used
-    for the Code of Conduct
-  - [Creative Commons](https://creativecommons.org/) - Used to choose
-    the license
+  - [Contributor Covenant](https://www.contributor-covenant.org/) - Used for the Code of Conduct
+  - [Creative Commons](https://creativecommons.org/) - Used to choose the license
 
 ## Versioning
-We use [Semantic Versioning](http://semver.org/) for versioning. For the versions
-available, see the [tags on this
-repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
+We use [Semantic Versioning](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
 
 ## Authors
-  - **Billie Thompson** - *Provided README Template* -
-    [PurpleBooth](https://github.com/PurpleBooth)
+  - **Billie Thompson** - *Provided README Template* - [PurpleBooth](https://github.com/PurpleBooth)
 
