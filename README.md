@@ -65,11 +65,7 @@ One of the disnguishing features of Storybook is that things cannot be exported 
 
 
 ### Installation Instructions / Getting Started
-To set up Sofware Star Trivia application, follow these steps:
->(1) FORK this repository
->(2) CLONE this repository to your local
->(3) NEW local branch
->(4) OPEN, edit, and commit
+> FORK this repository, CLONE this repository to your local, NEW local branch, OPEN, edit, and commit
 
 ### CONTRIBUTION GUIDELINES
 Follow these Links:
