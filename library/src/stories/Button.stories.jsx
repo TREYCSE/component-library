@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Button } from './Button';
+import { Button1 } from './Button';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
@@ -19,12 +20,12 @@ export const Primary = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 Primary.args = {
   primary: true,
-  label: 'Button',
+  label: 'SIGN UP',
 };
 
 export const Secondary = Template.bind({});
 Secondary.args = {
-  label: 'Button',
+  label: 'LOGIN',
 };
 
 export const Large = Template.bind({});
