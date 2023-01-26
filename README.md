@@ -94,13 +94,13 @@ Follow these Links:
 
 
 
-## Built With
+#### Built With
   - [Contributor Covenant](https://www.contributor-covenant.org/) - Used for the Code of Conduct
   - [Creative Commons](https://creativecommons.org/) - Used to choose the license
 
-## Versioning
+#### Versioning
 We use [Semantic Versioning](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
 
-## Authors
+#### Authors
   - **Billie Thompson** - *Provided README Template* - [PurpleBooth](https://github.com/PurpleBooth)
 
