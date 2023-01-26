@@ -4,7 +4,7 @@ Assigned from:
 [GA users only](https://git.generalassemb.ly/dc-wdi-react-redux/component-library-project)
 
 ## Description
-Sky travel companion UI design is built using React and Storybook. There are three pages
+Sky travel companion UI design is built using React and Storybook. There are three pages: Home, SIGN UP, and LOG IN. The Home page includes the logo and the buttons to the two other pages. The SIGN UP page includes  the logo and 4 text boxes for the user to enter their Full Name, Email, Password and password confirmation. Lastly, the LOG IN page incldes the logo and two text boxes to gather the user's Full Name and Password.
 
 
 ## Mock App - Sky Travel Companion
@@ -19,7 +19,7 @@ Sky travel companion UI design is built using React and Storybook. There are thr
 >1. add additional festures
 >2. build upon library
 
-3. Gold: INCOMPLETE‼
+3. Gold: incomplete.
 > 1. 
 > 2. 
 
