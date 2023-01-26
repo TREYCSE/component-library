@@ -45,7 +45,8 @@ Ways components can be utilized
 > 3. 
 > 4. 
 
-## Storybook
+## STORYBOOK
+
 ### What are Stories?
 A story captures the rendered state of a UI component. Developers write multiple stories per component that describe all the “interesting” states a component can support. The CLI created example components that demonstrate the types of components you can build with Storybook: Button, Header, and Page.
 
